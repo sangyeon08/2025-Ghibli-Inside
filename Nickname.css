@@ -3,66 +3,77 @@
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
-}
+  }
 
-body {
-    background-color: #F9F4EF;
-}
-
-#Nickname {
-    font-family: 'TTHakgyoansimMulgyeolB';
-    text-align: center;
-    position: relative;
-    top: 300px;
-}
-
-
-#submit {
-    position: absolute;
-    top: 475px; 
-    left: 948px;
-    transform: translateX(-50%);
-    z-index: 2; 
+  body {
+    background-color: #f9f4ef;
+    margin: 0;
+    font-family: 'TTHakgyoansimMulgyeolB', sans-serif;
     display: flex;
-    justify-content: center;
-    gap: 10px;
-}
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
 
+  #Nickname {
+    text-align: center;
+    margin-top: 30vh;
+  }
 
-#submit input[type="text"]{
-    padding: 10px;
-    font-size: 18px;
-    border: none;
-    border-radius: 10px;
-    width: 585px;
-}
+  #totoro {
+    width: 10vw;
+    max-width: 60px;
+    height: auto;
+  }
 
-#bar {
-    width: 780px;
-    height: 140px;
+  #ask {
+    font-size: 1.6rem;
+  }
+
+  .bar-container {
+    position: relative;
+    width: 80%;
+    max-width: 780px;
+    bottom: 5px;
+  }
+
+  #bar {
+    position: relative;
+    top: -30px;     
+    left: 13%;
+    width: 100%;
+    display: block;
+    z-index: -1;
+  }
+
+  #submit {
     position: absolute;
-    top: 436px; 
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
+    top: 22%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    width:82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-#arrow {
-    height: 38px;
-    width: 38px;
-    background-image: url(img/arrow.png);
-    background-size: cover;
+  #submit input[type="text"] {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
     border: none;
-    cursor: pointer;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+
+  #arrow {
+    min-width: 40px;
+    height: 40px;
+    background-image: url('img/arrow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
     border-radius: 10px;
-}
-
-#ask {
-    font-size: 26px;
-    font-weight: 400;
-}
-
-#totoro {
-    width: 48px;
-    height: 76px;
-}
+    cursor: pointer;
+  }
