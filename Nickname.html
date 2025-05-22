@@ -3,23 +3,25 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>닉네임 기입</title>
-    <link rel="stylesheet" href="Nickname.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>닉네임 기입</title>
+  <link rel="stylesheet" href="Nickname.css" />
 </head>
 <body>
-    <div id="Nickname">
-        <img src="img/totoro.png" alt="토토로" id="totoro" />
-        <p id="ask">당신의 이름은 무엇인가요?</p>
+  <main>
+    <section id="Nickname">
+      <img src="img/totoro.png" alt="토토로" id="totoro" />
+      <p id="ask">당신의 이름은 무엇인가요?</p>
+    </section>
+
+    <section class="bar-container">
+      <img src="img/submit.png" id="bar" />
+      <div id="submit">
+        <input type="text" placeholder="이름을 알려주세요" />
+        <input type="button" id="arrow" />
       </div>
-    
-      <div class="bar-container">
-        <img src="img/submit.png" id="bar" />
-        <div id="submit">
-          <input type="text" placeholder="이름을 알려주세요" />
-          <input type="button" id="arrow" />
-        </div>
-      </div>
+    </section>
+  </main>
 </body>
 </html>
