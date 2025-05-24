@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'TTHakgyoansimMulgyeolB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    background-color: #f9f4ef;
+    margin: 0;
+    font-family: 'TTHakgyoansimMulgyeolB', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  #Nickname {
+    text-align: center;
+    margin-top: 30vh;
+  }
+
+  #totoro {
+    width: 10vw;
+    max-width: 60px;
+    height: auto;
+  }
+
+  #ask {
+    font-size: 1.6rem;
+  }
+
+  .bar-container {
+    position: relative;
+    width: 80%;
+    max-width: 780px;
+    bottom: 5px;
+  }
+
+  #bar {
+    position: relative;
+    top: -30px;     
+    left: 13%;
+    width: 100%;
+    display: block;
+    z-index: -1;
+  }
+
+  #submit {
+    position: absolute;
+    top: 22%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    width:82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #submit input[type="text"] {
+    flex: 1;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 1rem;
+    margin-right: 1rem;
+  }
+
+  #arrow {
+    min-width: 40px;
+    height: 40px;
+    background-image: url('img/arrow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
