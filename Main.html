@@ -2,12 +2,33 @@
 
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>메인 페이지</title>
+    <link rel="stylesheet" href="css/Main.css">
+    <link rel="stylesheet" href="css/font.css">
 </head>
+<script>
+    const arrow = document.querySelector('img'); // img 태그가 화살표 하나라면 이걸로 OK
+    arrow.addEventListener('click', () => {
+        const target = document.getElementById('target-section'); // 스크롤할 영역 id
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
+</script>
+
 <body>
-    ㅇ
+    <div class="main-title"></div>
+    <div class="main-boy"></div>
+    </button>
+    <button class="startBtn" type="button">
+        시작하기
+    </button>
+    <img src="img/main_arrow.svg" alt="아래로 스크롤" />
+
 </body>
+
 </html>
