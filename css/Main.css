@@ -60,7 +60,7 @@ body {
 }
 
 .startBtn:hover {
-  background-color: rgba(255, 255, 255, 0.405); /* hover 시 더 뚜렷하게 */
+  background-color: rgba(255, 255, 255, 0.405);
   color: #ffffff;
   font-weight: bolder;
   transform: scale(1.05);

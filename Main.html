@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/font.css">
 </head>
 <script>
-    const arrow = document.querySelector('img'); // img 태그가 화살표 하나라면 이걸로 OK
+    const arrow = document.querySelector('img');
     arrow.addEventListener('click', () => {
-        const target = document.getElementById('target-section'); // 스크롤할 영역 id
+        const target = document.getElementById('target-section');
         if (target) {
             target.scrollIntoView({ behavior: 'smooth' });
         }
