@@ -1,34 +1,40 @@
-<!-- 메인 페이지 -->
-
 <!DOCTYPE html>
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>메인 페이지</title>
-    <link rel="stylesheet" href="css/Main.css">
-    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/Main.css" />
+    <link rel="stylesheet" href="css/font.css" />
 </head>
-<script>
-    const arrow = document.querySelector('img');
-    arrow.addEventListener('click', () => {
-        const target = document.getElementById('target-section');
-        if (target) {
-            target.scrollIntoView({ behavior: 'smooth' });
-        }
-    });
-</script>
 
 <body>
+    <!-- 배경 이미지 -->
+    <img src="img/background.jpg" alt="배경 이미지" class="main-bg" />
+
     <div class="main-title"></div>
     <div class="main-boy"></div>
-    </button>
+
     <button class="startBtn" type="button">
         시작하기
     </button>
-    <img src="img/main_arrow.svg" alt="아래로 스크롤" />
 
+    <img src="img/main_arrow.svg" alt="아래로 스크롤" class="scroll-arrow" />
+
+    <div>
+        <p id="p-title">등장인물</p>
+    </div>
+
+    <script>
+        const arrow = document.querySelector('.scroll-arrow');
+        arrow.addEventListener('click', () => {
+            const target = document.getElementById('p-title');
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
+    </script>
 </body>
 
 </html>
