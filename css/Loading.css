@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'TTHakgyoansimMulgyeolB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2402_keris@1.0/TTHakgyoansimMulgyeolB.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #F9F4EF;
+    font-family: 'TTHakgyoansimMulgyeolB';
+    font-size: 26px;
+}
+
+.box {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.totoro {
+    width: 58.6px;
+    height: 86.82px;
+}
