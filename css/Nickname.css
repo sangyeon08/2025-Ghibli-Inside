@@ -24,10 +24,11 @@
     width: 10vw;
     max-width: 60px;
     height: auto;
+    margin-bottom: -15px;
   }
 
   #ask {
-    font-size: 1.6rem;
+    font-size: 26px;
   }
 
   .bar-container {
@@ -47,6 +48,7 @@
   }
 
   #submit {
+    background-color: #446430;;
     position: absolute;
     top: 22%;
     left: 61.5%;
@@ -58,6 +60,7 @@
   }
 
   #submit input[type="text"] {
+    background-color: #F9F4EF;
     flex: 1;
     padding: 0.8rem;
     font-size: 1rem;
@@ -76,6 +79,6 @@
     background-position: center;
     background-repeat: no-repeat;
     border: none;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
   }
