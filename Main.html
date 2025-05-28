@@ -10,21 +10,38 @@
 </head>
 
 <body>
-    <!-- 배경 이미지 -->
-    <img src="img/background.jpg" alt="배경 이미지" class="main-bg" />
+    <section class="top-section">
+        <img src="img/background.jpg" alt="배경 이미지" class="main-bg" />
+        <div class="main-title"></div>
+        <div class="main-boy"></div>
+        <button class="startBtn" type="button">시작하기</button>
+        <img src="img/main_arrow.svg" alt="아래로 스크롤" class="scroll-arrow" />
+    </section>
 
-    <div class="main-title"></div>
-    <div class="main-boy"></div>
+    <section class="bottom-section">
+        <div>
+            <p id="p-title1">등장인물</p>
+        </div>
+        <div class="main-characters"></div>
 
-    <button class="startBtn" type="button">
-        시작하기
-    </button>
+        <div>
+            <p class="famousLine" id="line1">"무서워 하지마 난 그대의 편이야"</p>
+            <p class="famousFrom" id="from1">’센과 치히로의 행방불명’ 중</p>
+            <p class="famousLine" id="line2">"자신의 일은 스스로 결정하는 거야"</p>
+            <p class="famousFrom" id="from2">’하울의 움직이는 성’ 중</p>
+            <p class="famousLine" id="line3">"토토로! 너 토토로라고 하는구나"</p>
+            <p class="famousFrom" id="from3">’이웃집 토토로’ 중</p>
+            <p class="famousLine" id="line4">"아무리 괴로워도 운명은 바꿀 수 없어"</p>
+            <p class="famousFrom" id="from4">’벼랑 위의 포뇨’ 중</p>
+        </div>
+    </section>
 
-    <img src="img/main_arrow.svg" alt="아래로 스크롤" class="scroll-arrow" />
-
-    <div>
-        <p id="p-title">등장인물</p>
-    </div>
+    <section class="footer-section">
+        <div>
+            <p id="p-title2">개발 & 디자인</p>
+        </div>
+        <div class="main-footer"></div>
+    </section>
 
     <script>
         const arrow = document.querySelector('.scroll-arrow');
@@ -34,6 +51,7 @@
                 target.scrollIntoView({ behavior: 'smooth' });
             }
         });
+
     </script>
 </body>
 
