@@ -51,7 +51,7 @@
     background-color: #446430;;
     position: absolute;
     top: 22%;
-    left: 61%;
+    left: 61.5%;
     transform: translate(-50%, -50%);
     width:82%;
     display: flex;
@@ -65,14 +65,16 @@
     padding: 0.8rem;
     font-size: 1rem;
     border: none;
-    border-radius: 1rem;
-    margin-right: 1rem;
+    border-radius: 0.7rem;
+    margin-right: 0.5rem;
+    background-color: #F9F4EF;
   }
+
 
   #arrow {
     background-color: #F9F4EF;
-    min-width: 45px;
-    height: 43px;
+    width: 9%;
+    height: 5%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
