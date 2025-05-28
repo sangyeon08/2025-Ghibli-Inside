@@ -20,7 +20,8 @@ button {
 
 #key {
     position: absolute;
-    margin-top: 12%;
+    margin-top: 17%;
+    left: 2%;
     z-index: -1;
 }
 
