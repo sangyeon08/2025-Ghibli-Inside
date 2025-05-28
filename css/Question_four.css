@@ -18,20 +18,7 @@
     position: relative;
     margin-top: 5%;
     text-align: center;
-    color: #F9F4EF;
     font-family: 'TTHakgyoansimMulgyeolB';
     line-height: 38px;
     font-size: 30px;
-}
-
-
-button {
-    background-color: #F9F4EF;
-    font-family: 'Pretendard';
-    border: none;
-    width: 780px;
-    height: 100px;
-    margin-top: 1.5%;
-    border-radius: 25px;
-    font-size: 24px;
 }
