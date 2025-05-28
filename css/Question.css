@@ -35,30 +35,3 @@ button {
     border-radius: 25px;
     font-size: 24px;
 }
-
-#eye {
-    margin-top: 3%;
-    margin-left: 10%;
-    position: absolute;
-}
-
-.eye1 {
-    position: absolute;
-    margin-top: 12%;
-    margin-left: 12.5%;
-    z-index: -1;
-}
-
-.eye2 {
-    position: absolute;
-    margin-top: 6%;
-    margin-left: 24%;
-    z-index: -1;
-}
-
-.tail {
-    position: absolute;
-    margin-top: 630px;
-    margin-left: 60.5%;
-    z-index: 1;
-}
