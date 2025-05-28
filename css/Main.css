@@ -1,89 +1,118 @@
-body {
-    background-image: url('../img/background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh;
+/* 전역 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body{
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-use-select: none;
+ user-select: none;
+}
+
+.main-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;     /* 마우스 이벤트 무시 */
+}
+
+/* 제목 이미지 */
 .main-title {
-  width: 801px;            
-  height: 400px;    
-  background-image: url('../img/title.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative; 
-  top: 80px;
+    width: 801px;
+    height: 400px;
+    background-image: url('../img/title.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    bottom: 720px;
+    user-select: none;
+    pointer-events: none;
 
-  user-select: none;
-  pointer-events: none;
-
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .main-boy {
-  width: 220px;  
-  height: 79px;
-  background-image: url('../img/boy.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  right: 90px;
-  bottom: 26px;
+    width: 220px;
+    height: 79px;
+    background-image: url('../img/boy.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    right: 90.5px;
+    bottom: 818px;
+    user-select: none;
+    pointer-events: none;
 
-  user-select: none;
-  pointer-events: none;
-
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .startBtn {
-  position: relative;
-  display: inline-block;
-  padding: 12px 76px;
-  border-radius: 10px;
-  font-family: "Pretendard";
-  font-weight: 500;
-  font-size: 34px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.223);
-  border: 4px solid white;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  transition: 0.25s;
-  position: relative;
-  left: 600px;
-  top: 65px;
-
+    position: relative;
+    display: inline-block;
+    padding: 16px 34px;
+    width: 250px;
+    border-radius: 10px;
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.223);
+    border: 4px solid white;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: 0.25s;
+    left: 635px;
+    bottom: 725px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
 }
+
 
 .startBtn:hover {
-  background-color: rgba(255, 255, 255, 0.405);
-  color: #ffffff;
-  font-weight: bolder;
-  transform: scale(1.05);
-  cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.405);
+    color: #ffffff;
+    font-weight: bolder;
+    transform: scale(1.05);
 }
 
-img {
-  width: 60px;
-  position: relative;
-  top: 180px;
-  left: 420px;
-  opacity: 0.9;
-  animation: bounce 2s infinite;
-  cursor: pointer;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+.scroll-arrow {
+    width: 60px;
+    position: relative;
+    left: 475px;
+    opacity: 0.9;
+    animation: bounce 2s infinite;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    bottom: 610px;
+}
+
+.scroll-arrow:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 @keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+#p-title {
+  text-align: center;
+  position: relative;
+  bottom: 420px;
+  font-family: 'Hakgyoansim MulgyeolOTF';
+  font-size: 55px;
+  margin: 0;
 }
 
