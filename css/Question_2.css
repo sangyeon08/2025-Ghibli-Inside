@@ -1,0 +1,28 @@
+body {
+    background-color: #F9F4EF;
+}
+
+.Question {
+    color: #446430;
+}
+
+button {
+    background-color: #446430;
+    font-family: 'Pretendard';
+    border: none;
+    width: 780px;
+    height: 100px;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    font-size: 24px;
+    color: #F9F4EF;
+}
+
+#bus {
+    position: absolute;
+    top: 500px;
+    left: 81.65%;
+    transform: translate(-50%, 0);
+    width: 700px;
+    z-index: 1;
+}

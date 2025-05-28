@@ -1,0 +1,32 @@
+body {
+    background-color: #446430;
+}
+
+.Question {
+    color: #F9F4EF;
+}
+
+button {
+    background-color: #F9F4EF;
+    color: #446430;
+    font-family: 'Pretendard';
+    border: none;
+    width: 780px;
+    height: 100px;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#key {
+    position: absolute;
+    margin-top: 12%;
+    z-index: -1;
+}
+
+#key2 {
+    position: absolute;
+    top: 30px;
+    left: -5px;
+    z-index: -1;
+}
