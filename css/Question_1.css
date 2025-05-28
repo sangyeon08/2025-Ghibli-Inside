@@ -1,0 +1,34 @@
+body {
+    background-color: #14121D;
+}
+
+#eye {
+    margin-top: 3%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.eye1 {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 12.5%;
+    z-index: -1;
+}
+
+.eye2 {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 24%;
+    z-index: -1;
+}
+
+
+.tail {
+    position: absolute;
+    top: 725px;
+    left: 70%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    width: 350px;
+    height: auto;
+}
