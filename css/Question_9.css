@@ -1,0 +1,30 @@
+body {
+    background-color: #446430;
+}
+
+.Question {
+    color: #F9F4EF;
+}
+
+button {
+    cursor: pointer;
+    background-color: #F9F4EF;
+    color: #446430;
+    font-family: 'Pretendard';
+    border: none;
+    width: 780px;
+    height: 100px;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#clock {
+    position: absolute;
+    bottom: 0;
+    left: -1vw;
+    top: -1vw;
+    margin: 0;
+    z-index: -1;
+    /* width: 30vw; */
+}
