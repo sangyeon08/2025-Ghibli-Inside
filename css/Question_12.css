@@ -1,0 +1,30 @@
+body {
+    background-color: #13121D;
+}
+
+.Question {
+    color: #F9F4EF;
+}
+
+button {
+    cursor: pointer;
+    background-color: #F9F4EF;
+    color: #13121D;
+    font-family: 'Pretendard';
+    border: none;
+    width: 780px;
+    height: 100px;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#Exit {
+    position: absolute;
+    bottom: 0;
+    left: 4.5vw;
+    /* top: vw; */
+    margin: 0;
+    z-index: -1;
+    /* width: 30vw; */
+}
