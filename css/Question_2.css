@@ -7,6 +7,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     background-color: #446430;
     font-family: 'Pretendard';
     border: none;
@@ -20,9 +21,9 @@ button {
 
 #bus {
     position: absolute;
-    top: 500px;
-    left: 81.65%;
+    top: 23vw;
+    left: 82%;
     transform: translate(-50%, 0);
-    width: 700px;
+    width: 35vw;
     z-index: 1;
 }
