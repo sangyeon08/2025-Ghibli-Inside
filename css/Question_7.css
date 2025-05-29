@@ -2,6 +2,15 @@ body {
     background-color: #770909;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    position: relative;
+  }
+
 .Question {
     color: #F9F4EF;
 }
@@ -20,10 +29,11 @@ button {
 }
 
 #dragon {
+    pointer-events: none;
     position: absolute;
     bottom: 0;
     left: -1vw;
-    top: 0;
+    top: 1vw;
     margin: 0;
     z-index: 1;
     /* width: 30vw; */
