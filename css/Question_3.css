@@ -7,6 +7,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     background-color: #F9F4EF;
     color: #446430;
     font-family: 'Pretendard';
@@ -20,14 +21,8 @@ button {
 
 #key {
     position: absolute;
-    margin-top: 17%;
-    left: 2%;
-    z-index: -1;
-}
-
-#key2 {
-    position: absolute;
-    top: 30px;
-    left: -5px;
-    z-index: -1;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1;
+    width: 30vw;
 }

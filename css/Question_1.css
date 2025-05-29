@@ -7,15 +7,15 @@ body {
 }
 
 #eye {
-    margin-top: 3%;
-    margin-left: 10%;
+    top: 8vw;
+    left: 11vw;
     position: absolute;
 }
 
 .eye1 {
     position: absolute;
-    margin-top: 12%;
-    margin-left: 12.5%;
+    top: 16vw;
+    left: 13vw;
     z-index: -1;
 }
 
@@ -33,11 +33,12 @@ body {
     left: 70%;
     transform: translate(-50%, 0);
     z-index: 1;
-    width: 350px;
+    width: 18vw;
     height: auto;
 }
 
 button {
+    cursor: pointer;
     background-color: #F9F4EF;
     font-family: 'Pretendard';
     border: none;
