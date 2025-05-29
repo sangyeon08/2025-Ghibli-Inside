@@ -1,15 +1,15 @@
 body {
-    background-color: #446430;
+    background-color: #F9F4EF;
 }
 
 .Question {
-    color: #F9F4EF;
+    color: #770909;
 }
 
 button {
     cursor: pointer;
-    background-color: #F9F4EF;
-    color: #446430;
+    background-color: #770909;
+    color: #F9F4EF;
     font-family: 'Pretendard';
     border: none;
     width: 780px;
@@ -19,11 +19,12 @@ button {
     font-size: 24px;
 }
 
-#key {
-    left: -1vw;
+#frypan {
     position: absolute;
     bottom: 0;
-    margin: 0 auto;
+    left: -1vw;
+    top: 24.7vw;
+    margin: 0;
     z-index: 1;
-    width: 30vw;
+    /* width: 30vw; */
 }
