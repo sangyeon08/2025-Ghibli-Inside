@@ -1,0 +1,34 @@
+* {
+    background-color: #F9F4EF;
+}
+
+.top-section {
+    color: #446430;
+}
+
+#title {
+    font-family: 'Hakgyoansim MulgyeolOTF';
+    font-size: 50px;
+    text-align: center;
+}
+
+#semi-title {
+    font-family: 'Pretendard';
+    font-size: 25px;
+    text-align: center;
+}
+
+#greenLine {
+    width:5px;
+}
+
+#totoro_img {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    
+}
+
+.totoro_icon {
+
+}

@@ -1,3 +1,50 @@
 body {
     background-color: #14121D;
 }
+
+.Question {
+        color: #F9F4EF;
+}
+
+#eye {
+    top: 8vw;
+    left: 11vw;
+    position: absolute;
+}
+
+.eye1 {
+    position: absolute;
+    top: 16vw;
+    left: 13vw;
+    z-index: -1;
+}
+
+.eye2 {
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 24%;
+    z-index: -1;
+}
+
+
+.tail {
+    position: absolute;
+    top: 38vw;
+    left: 70%;
+    transform: translate(-50%, 0);
+    z-index: 1;
+    width: 18vw;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+    background-color: #F9F4EF;
+    font-family: 'Pretendard';
+    border: none;
+    width: 780px;
+    height: 100px;
+    margin-top: 1.5%;
+    border-radius: 25px;
+    font-size: 24px;
+}
