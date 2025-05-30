@@ -1,5 +1,5 @@
 body {
-    background-color: #446430;
+    background-color: #770909;
 }
 
 html, body {
@@ -18,7 +18,7 @@ html, body {
 button {
     cursor: pointer;
     background-color: #F9F4EF;
-    color: #446430;
+    color: #770909;
     font-family: 'Pretendard';
     border: none;
     width: 780px;
@@ -28,11 +28,13 @@ button {
     font-size: 24px;
 }
 
-#key {
-    left: -1vw;
+#window {
     position: absolute;
     bottom: 0;
-    margin: 0 auto;
+    left: 64vw;
+    /* top: vw; */
+    margin: 0;
     z-index: 1;
-    width: 30vw;
+    pointer-events: none;
+    /* width: 30vw; */
 }
