@@ -2,6 +2,15 @@ body {
     background-color: #770909;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    position: relative;
+  }
+
 .Question {
     color: #F9F4EF;
 }
@@ -26,5 +35,6 @@ button {
     top: 2.5vw;
     margin: 0;
     z-index: 1;
-    width: 37vw;    
+    width: 37vw;  
+    pointer-events: none;  
 }
