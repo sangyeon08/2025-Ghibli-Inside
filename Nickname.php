@@ -20,5 +20,4 @@ fclose($file);
 header("Location: Question_1.html");
 exit;
 
-
 ?>
