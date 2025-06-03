@@ -1,5 +1,5 @@
 body {
-    background-color: #446430;
+    background-color: #F9F4EF;
 }
 
 html, body {
@@ -12,13 +12,13 @@ html, body {
   }
 
 .Question {
-    color: #F9F4EF;
+    color: #446430;
 }
 
 button {
     cursor: pointer;
-    background-color: #F9F4EF;
-    color: #446430;
+    background-color: #446430;
+    color: #F9F4EF;
     font-family: 'Pretendard';
     border: none;
     width: 780px;
@@ -28,11 +28,12 @@ button {
     font-size: 24px;
 }
 
-#key {
-    left: -1vw;
+#rail {
     position: absolute;
     bottom: 0;
-    margin: 0 auto;
+    left: 71.45vw;
+    /* top: vw; */
+    margin: 0;
     z-index: 1;
-    width: 30vw;
+    /* width: 30vw; */
 }
