@@ -2,42 +2,53 @@ body {
     background-color: #14121D;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    position: relative;
+  }
+
 .Question {
         color: #F9F4EF;
 }
 
 #eye {
-    margin-top: 3%;
-    margin-left: 10%;
+    top: 8vw;
+    left: 11vw;
     position: absolute;
 }
 
 .eye1 {
     position: absolute;
-    margin-top: 12%;
-    margin-left: 12.5%;
+    top: 16vw;
+    left: 12.3vw;
     z-index: -1;
 }
 
 .eye2 {
     position: absolute;
-    margin-top: 6%;
-    margin-left: 24%;
+    margin-top: 10.5vw;
+    margin-left: 24vw;
     z-index: -1;
 }
 
 
 .tail {
     position: absolute;
-    top: 725px;
+    top: 38vw;
     left: 70%;
     transform: translate(-50%, 0);
     z-index: 1;
-    width: 350px;
+    width: 18vw;
     height: auto;
+    pointer-events: none;
 }
 
 button {
+    cursor: pointer;
     background-color: #F9F4EF;
     font-family: 'Pretendard';
     border: none;
