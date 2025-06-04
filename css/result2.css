@@ -12,7 +12,7 @@ html, body {
 
 
 .top-section {
-    color: #446430;
+    color: #770909;
     text-align: center;
     padding-top: 60px;
 }
@@ -50,7 +50,7 @@ html, body {
 
 .totoro_img {
     width: 440px;
-    height: 540px;
+    height: 420px;
     margin-right: 510px;
     margin-top: 20px;
 }
@@ -75,7 +75,7 @@ html, body {
     display: flex;
     margin-left: 760px;
     gap: 60px;
-    margin-top: -500px;
+    margin-top: -350px;
     max-width: 1000px;
 }
 
@@ -92,7 +92,7 @@ html, body {
 }
 
 .match-section {
-    color: #770909;
+    color: #446430;
 }
 
 .match-title {
