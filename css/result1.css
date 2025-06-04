@@ -105,10 +105,20 @@ html, body {
 }
 
 .match-img {
+    background-color: transparent;
     width: 466px;
     height: 470px;
     margin-left: 550px;
     margin-top: -60px;
+    transition: transform 0.3s ease;
+    position: relative;
+    z-index: 0;
+}
+
+.match-name,
+.match-info {
+    position: relative;
+    z-index: 1;
 }
 
 .match-name {
@@ -200,6 +210,19 @@ html, body {
 
 .result-arrow {
     animation: bounce-horizontal 2s infinite ease-in-out;
+}
+
+.match-img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.match-img {
+    transition: transform 0.5s ease;
+}
+
+.match-img:hover {
+    transform: scale(1.1);
 }
 
 
