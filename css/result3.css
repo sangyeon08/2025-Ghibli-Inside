@@ -12,7 +12,7 @@ html, body {
 
 
 .top-section {
-    color: #446430;
+    color: #770909;
     text-align: center;
     padding-top: 60px;
 }
@@ -50,15 +50,15 @@ html, body {
 
 .totoro_img {
     width: 440px;
-    height: 540px;
+    height: 410px;
     margin-right: 510px;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 
 .totoro_icon {
     width: 310px;
     height: 70px;
-    margin-top: 10px;
+    margin-top: 110px;
 }
 
 #info {
@@ -75,7 +75,7 @@ html, body {
     display: flex;
     margin-left: 760px;
     gap: 60px;
-    margin-top: -500px;
+    margin-top: -385px;
     max-width: 1000px;
 }
 
@@ -84,7 +84,7 @@ html, body {
 }
 
 .third {
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 .rizz-info {
@@ -92,7 +92,7 @@ html, body {
 }
 
 .match-section {
-    color: #770909;
+    color: #446430;
 }
 
 .match-title {

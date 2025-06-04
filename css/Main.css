@@ -2,33 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*overflow-x: hidden; overflow-y: auto*/
+    overflow-x: hidden;
+    overflow-y: auto
 }
 
 .top-section {
-  position: relative;
-  height: 850px;
-  overflow: hidden;
+    position: relative;
+    height: 850px;
+    overflow: hidden;
 }
 
 .bottom-section {
-  background-color: #F9F4EF;
-  padding: 80px 0;
+    background-color: #F9F4EF;
+    padding: 80px 0;
 }
 
 
-body{
- -webkit-user-select: none;
- -moz-user-select: none;
- -ms-use-select: none;
- user-select: none;
+body {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-use-select: none;
+    user-select: none;
 }
 
 .main-bg {
-  width: 100%;
-  height: auto;
-  display: block;
-  pointer-events: none;
+    width: 100%;
+    height: auto;
+    display: block;
+    pointer-events: none;
 }
 
 .main-title {
@@ -104,7 +105,9 @@ body{
 }
 
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
 
@@ -114,18 +117,18 @@ body{
 }
 
 #p-title1 {
-  margin-bottom: 450px;
-  text-align: center;
-  font-size: 55px;
-  color: #F9F4EF;
-  font-family: 'Hakgyoansim MulgyeolOTF';
+    margin-bottom: 450px;
+    text-align: center;
+    font-size: 55px;
+    color: #F9F4EF;
+    font-family: 'Hakgyoansim MulgyeolOTF';
 }
 
 #p-title1 {
-  text-align: center;
-  font-size: 55px;
-  color: #770909;
-  font-family: 'Hakgyoansim MulgyeolOTF';
+    text-align: center;
+    font-size: 55px;
+    color: #770909;
+    font-family: 'Hakgyoansim MulgyeolOTF';
 }
 
 .main-characters {
@@ -158,25 +161,48 @@ body{
     left: 700px;
 }
 
-#line1 {bottom: 1910px;}
-#line2 {bottom: 1600px; left: 535px;}
-#line3 {bottom: 1300px;}
-#line4 {bottom: 985px; left: 520px;}
+#line1 {
+    bottom: 1910px;
+}
 
-#from1 {bottom: 1890px; left: 680px;}
-#from2 {bottom: 1575px; left: 690px;}
-#from3 {bottom: 1276px;}
-#from4 {bottom: 966px;}
+#line2 {
+    bottom: 1600px;
+    left: 535px;
+}
+
+#line3 {
+    bottom: 1300px;
+}
+
+#line4 {
+    bottom: 985px;
+    left: 520px;
+}
+
+#from1 {
+    bottom: 1890px;
+    left: 680px;
+}
+
+#from2 {
+    bottom: 1575px;
+    left: 690px;
+}
+
+#from3 {
+    bottom: 1276px;
+}
+
+#from4 {
+    bottom: 966px;
+}
 
 .footer-section {
-   background-color: #F9F4EF;
+    background-color: #F9F4EF;
 }
 
 .main-footer {
     background-image: url('../img/Main-footer.png');
-    position: relative;
     width: 50%;
     height: 1000px;
 }
-
-
