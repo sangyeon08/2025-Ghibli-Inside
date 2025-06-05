@@ -105,10 +105,10 @@ html, body {
 }
 
 .match-img {
-    width: 29.125rem;
-    height: 29.375rem; 
-    margin-left: 40.625rem;
-    margin-top: -3.75rem;
+    width: 466px;
+    height: 470px;
+    margin-left: 550px;
+    margin-top: -60px;
 }
 
 .match-name {
@@ -197,3 +197,9 @@ html, body {
         transform: translateX(0.625rem);
     }
 }
+
+.result-arrow {
+    animation: bounce-horizontal 2s infinite ease-in-out;
+}
+
+
