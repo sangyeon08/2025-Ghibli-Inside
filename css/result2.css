@@ -4,91 +4,91 @@
 }
 
 html, body {
-  overflow-x: hidden;
-  overflow-y: visible !important;
-  margin: 0;
-  padding: 0;
+    overflow-x: hidden;
+    overflow-y: visible !important;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* 기준 폰트 크기 */
 }
-
 
 .top-section {
     color: #770909;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 3.75rem; /* 60px */
 }
 
 .main-title {
-    margin-top: 40px;
+    margin-top: 2.5rem; /* 40px */
 }
 
 #title {
     font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 80px;
+    font-size: 5rem; /* 80px */
     line-height: 1;
 }
 
 #semi-title {
     font-family: 'Pretendard';
-    font-size: 25px;
+    font-size: 1.5625rem; /* 25px */
     font-weight: 600;
 }
 
 .first {
-    margin-top: 15px;
+    margin-top: 0.9375rem; /* 15px */
 }
 
 .second {
-    margin-top: 100px;
+    margin-top: 6.25rem; /* 100px */
 }
 
 .greenLine {
     display: block;
-    width: 320px;
-    margin-left: 605px;
-    margin-top: 50px;
+    width: 20rem; /* 320px */
+    margin-left: 42.8125rem; /* 685px */
+    margin-top: 3.125rem; /* 50px */
 }
 
-.totoro_img {
-    width: 440px;
-    height: 420px;
-    margin-right: 510px;
-    margin-top: 20px;
+.may_img {
+    width: 27.5rem; /* 440px */
+    height: 26.25rem; /* 420px */
+    margin-right: 31.875rem; /* 510px */
+    margin-top: 1.25rem; /* 20px */
 }
 
-.totoro_icon {
-    width: 310px;
-    height: 70px;
-    margin-top: 10px;
+.may_icon {
+    width: 19.375rem; /* 310px */
+    height: 4.375rem; /* 70px */
+    margin-top: 0.625rem; /* 10px */
 }
 
 #info {
     font-family: 'Pretendard';
     font-style: normal;
-    font-size: 19px;
+    font-size: 1.1875rem; /* 19px */
     font-weight: 410;
-    line-height: 32px;
-    max-width: 900px;
+    line-height: 2rem; /* 32px */
+    max-width: 56.25rem; /* 900px */
     text-align: left;
 }
 
 .main-info {
     display: flex;
-    margin-left: 760px;
-    gap: 60px;
-    margin-top: -350px;
-    max-width: 1000px;
+    margin-left: 53.125rem; /* 850px */
+    gap: 3.75rem; /* 60px */
+    margin-top: -21.875rem; /* -350px */
+    max-width: 62.5rem; /* 1000px */
 }
 
 .point-info {
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px */
 }
 
 .third {
-    margin-top: 80px;
+    margin-top: 5rem; /* 80px */
 }
 
 .rizz-info {
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px */
 }
 
 .match-section {
@@ -97,96 +97,96 @@ html, body {
 
 .match-title {
     font-family: 'Pretendard';
-    font-size: 40px;
+    font-size: 2.5rem; /* 40px */
     font-weight: 650;
-    margin-top: 190px;
-    margin-left: 550px;
-    margin-bottom: 60px;
+    margin-top: 11.875rem; /* 190px */
+    margin-left: 40.625rem; /* 650px */
+    margin-bottom: 3.75rem; /* 60px */
 }
 
 .match-img {
-    width: 466px;
-    height: 470px;
-    margin-left: 550px;
-    margin-top: -60px;
+    width: 29.125rem; /* 466px */
+    height: 29.375rem; /* 470px */
+    margin-left: 39.375rem; /* 630px */
+    margin-top: -3.75rem; /* -60px */
 }
 
 .match-name {
-    margin-left: 700px;
-    margin-top: -90px;
+    margin-left: 48.125rem; /* 770px */
+    margin-top: -5.625rem; /* -90px */
 }
 
 #match-name {
     font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 60px;
+    font-size: 3.75rem; /* 60px */
 }
 
 .match-info {
-    margin-left: 500px;
-    margin-top: 20px;
+    margin-left: 37.5rem; /* 600px */
+    margin-top: 1.25rem; /* 20px */
 }
 
 #match-info {
     font-family: 'Pretendard';
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.25rem; /* 20px */
     font-weight: 450;
-    line-height: 32px;
-    max-width: 900px;
+    line-height: 2rem; /* 32px */
+    max-width: 56.25rem; /* 900px */
     text-align: left;
 }
 
 .footer {
-  position: relative;
-  width: 100%;
-  height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .result-footer {
-  width: 1700px;
-  margin-top: 150px;
-  position: relative;
-  z-index: 1;
+    width: 106.25rem; /* 1700px */
+    margin-top: 9.375rem; /* 150px */
+    position: relative;
+    z-index: 1;
 }
 
 .result-arrow {
-  position: absolute;
-  background-color: #446430;
-  top: 450px;
-  left: 1060px;
-  width: 60px;
-  height: 120px;
-  z-index: 2;
+    position: absolute;
+    background-color: #446430;
+    top: 28.125rem; /* 450px */
+    left: 66.25rem; /* 1060px */
+    width: 3.75rem; /* 60px */
+    height: 7.5rem; /* 120px */
+    z-index: 2;
+    animation: bounce-horizontal 2s infinite ease-in-out;
 }
 
 #footer-info {
-  background-color: #446430;
-  position: absolute;
-  top: 490px;
-  left: 580px;
-  font-size: 55px;
-  font-family: 'Hakgyoansim MulgyeolOTF';
-  font-weight: 500;
-  color: #F9F4EF;
-  z-index: 3;
+    background-color: #446430;
+    position: absolute;
+    top: 30.625rem; /* 490px */
+    left: 36.25rem; /* 580px */
+    font-size: 3.4375rem; /* 55px */
+    font-family: 'Hakgyoansim MulgyeolOTF';
+    font-weight: 500;
+    color: #F9F4EF;
+    z-index: 3;
 }
 
 .no-drag {
-  user-select: none;
-  -webkit-user-drag: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  pointer-events: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: auto;
 }
 
 #footer-info-link span {
-  user-select: none;
+    user-select: none;
 }
 
 .match-img.no-drag:hover,
 .result-arrow.no-drag:hover {
-  cursor: pointer; 
-
+    cursor: pointer;
 }
 
 @keyframes bounce-horizontal {
@@ -194,12 +194,6 @@ html, body {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(10px);
+        transform: translateX(0.625rem); /* 10px */
     }
 }
-
-.result-arrow {
-    animation: bounce-horizontal 2s infinite ease-in-out;
-}
-
-
