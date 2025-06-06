@@ -113,7 +113,6 @@ body {
 }
 
 @keyframes bounce {
-
     0%,
     100% {
         transform: translateY(0);
@@ -139,6 +138,16 @@ body {
     font-family: 'Hakgyoansim MulgyeolOTF';
 }
 
+#p-title2 {
+    position: absolute;
+    left: 40vw;
+    font-size: 55px;
+    color: #F9F4EF;
+    bottom: -193vw;
+    z-index: 1;
+    font-family: 'Hakgyoansim MulgyeolOTF';
+}
+
 .main-characters {
     width: 1500px;
     height: 1700px;
@@ -151,6 +160,7 @@ body {
     pointer-events: none;
     bottom: 520px;
     margin: 0 auto;
+    z-index: 0;
 }
 
 .famousLine {
@@ -170,7 +180,10 @@ body {
 }
 
 #line1 {
+    position: relative;
+    z-index: 2;
     bottom: 1910px;
+    color: #770909;
 }
 
 #line2 {
@@ -209,8 +222,15 @@ body {
     background-color: #F9F4EF;
 }
 
-.main-footer {
+/*.main-footer {
     background-image: url('../img/Main-footer.png');
-    width: 50%;
-    height: 1000px;
+    width: 2370px;
+    height: 2561.43px;
+    top: 3559px;
+    left: -36px;
+}*/
+
+.footer-section > img {
+    width: 100%;
+    position: relative;
 }
