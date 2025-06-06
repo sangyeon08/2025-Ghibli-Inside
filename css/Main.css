@@ -6,13 +6,12 @@
     overflow-y: auto
 }
 
-@font-face {
-    font-family: 'Hakgyoansim MulgyeolOTF';
-    src: url('../font/OTHakgyoansimMulgyeolR.woff2') format('woff2'),
-        url('../font/OTHakgyoansimMulgyeolR.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+body{
+ -ms-overflow-style: none;
+ }
+ 
+::-webkit-scrollbar {
+  display: none;
 }
 
 .top-section {
