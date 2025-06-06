@@ -6,6 +6,14 @@
     overflow-y: auto
 }
 
+body{
+ -ms-overflow-style: none;
+ }
+ 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .top-section {
     position: relative;
     height: 850px;
