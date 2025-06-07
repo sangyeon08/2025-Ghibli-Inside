@@ -22,7 +22,7 @@ button {
     border: none;
     width: 780px;
     height: 100px;
-    margin-top: 1.5%;
+    margin-top: 3%;
     border-radius: 25px;
     font-size: 24px;
 }
@@ -35,11 +35,9 @@ button:hover {
 
 #window {
     position: absolute;
-    bottom: 0;
+    bottom: 10vh;
     left: 64vw;
-    /* top: vw; */
     margin: 0;
     z-index: 1;
     pointer-events: none;
-    /* width: 30vw; */
 }
