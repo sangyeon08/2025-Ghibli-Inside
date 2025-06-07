@@ -23,14 +23,15 @@ html, body {
 
 #title {
     font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 80px;
+    font-size: 90px;
     line-height: 1;
 }
 
 #semi-title {
     font-family: 'Pretendard';
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 700;
+    word-spacing: 3px;
 }
 
 .first {
@@ -43,44 +44,44 @@ html, body {
 
 .greenLine {
     display: block;
-    width: 320px;
-    margin-left: 605px;
-    margin-top: 50px;
+    width: 350px;
+    margin-left: 780px;
+    margin-top: 40px;
 }
 
 .totoro_img {
-    width: 470px;
-    height: 420px;
-    margin-right: 510px;
+    width: 600px;
+    height: 550px;
+    margin-right: 740px;
     margin-top: 20px;
 }
 
 .totoro_icon {
-    width: 310px;
-    height: 70px;
+    width: 400px;
+    height: 100px;
     margin-top: 110px;
 }
 
 #info {
     font-family: 'Pretendard';
-    font-style: normal;
-    font-size: 19px;
-    font-weight: 410;
-    line-height: 32px;
+    font-style: bold;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 38px;
     max-width: 900px;
     text-align: left;
 }
 
 .main-info {
     display: flex;
-    margin-left: 800px;
+    margin-left: 950px;
     gap: 60px;
-    margin-top: -410px;
+    margin-top: -530px;
     max-width: 1000px;
 }
 
 .point-info {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .third {
@@ -88,27 +89,27 @@ html, body {
 }
 
 .rizz-info {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .match-section {
     color: #446430;
 }
 
-.match-title {
-    font-family: 'Pretendard';
-    font-size: 40px;
-    font-weight: 650;
-    margin-top: 150px;
-    margin-left: 550px;
-    margin-bottom: 60px;
+.match-img {
+    width: 750px;
+    height: 690px;
+    margin-left: 600px;
+    margin-top: -65px;
 }
 
-.match-img {
-    width: 600px;
-    height: 538px;
-    margin-left: 480px;
-    margin-top: -60px;
+.match-title {
+    font-family: 'Pretendard';
+    font-size: 50px;
+    font-weight: 650;
+    margin-top: 150px;
+    margin-left: 700px;
+    margin-bottom: 60px;
 }
 
 .match-name {
@@ -118,22 +119,12 @@ html, body {
 
 #match-name {
     font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .match-info {
     text-align: center;
     margin-top: 20px;
-}
-
-#match-info {
-    font-family: 'Pretendard';
-    font-style: normal;
-    font-size: 20px;
-    font-weight: 450;
-    line-height: 32px;
-    max-width: 900px;
-    text-align: left;
 }
 
 .footer {
@@ -143,7 +134,7 @@ html, body {
 }
 
 .result-footer {
-  width: 1700px;
+  width: 2000px;
   margin-top: 150px;
   position: relative;
   z-index: 1;
@@ -152,8 +143,8 @@ html, body {
 .result-arrow {
   position: absolute;
   background-color: #446430;
-  top: 450px;
-  left: 1060px;
+  top: 520px;
+  left: 1200px;
   width: 60px;
   height: 120px;
   z-index: 2;
@@ -162,9 +153,9 @@ html, body {
 #footer-info {
   background-color: #446430;
   position: absolute;
-  top: 490px;
-  left: 580px;
-  font-size: 55px;
+  top: 550px;
+  left: 680px;
+  font-size: 65px;
   font-family: 'Hakgyoansim MulgyeolOTF';
   font-weight: 500;
   color: #F9F4EF;
