@@ -2,6 +2,10 @@ body {
     background-color: #446430;
 }
 
+*{
+    overflow: hidden;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -22,7 +26,7 @@ button {
     border: none;
     width: 780px;
     height: 100px;
-    margin-top: 1.5%;
+    margin-top: 3%;
     border-radius: 25px;
     font-size: 24px;
 }
@@ -33,12 +37,34 @@ button:hover {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
+/* 토토로 말랑거리는 애니메이션 */
+@keyframes totoroBounce {
+    0% {
+        transform: scaleY(1); /* 시작: 원래 위치, 원래 크기 */
+    }
+    25% {
+        transform: scaleY(1.02); /* 위로 살짝 올라가며 세로로 살짝 늘어남 */
+    }
+    50% {
+        transform: scaleY(0.98); /* 원래 위치로 돌아오며 세로로 살짝 눌림 */
+    }
+    75% {
+        transform: scaleY(1.02); /* 아래로 살짝 내려가며 세로로 살짝 늘어남 */
+    }
+    100% {
+        transform: scaleY(1); /* 끝: 원래 위치, 원래 크기 */
+    }
+}
+
 #totoro {
     position: absolute;
+    left: 5vw;
     bottom: 0;
-    left: 8vw;
-    /* top: vw; */
     margin: 0;
     z-index: -1;
-    /* width: 30vw; */
+    width: 100vw;
+    height: 110vh;
+
+    animation: totoroBounce 2s ease-in-out infinite;
+    transform-origin: bottom center;
 }
