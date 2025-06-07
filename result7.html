@@ -34,6 +34,7 @@
                 오히려 따뜻하고 다정한 성품으로 주변 사람들을 편안하게 해주죠. <br>
                 작은 생명도 소중히 여기고, <br>
                 약속을 꼭 지키는 책임감 있는 모습이 인상적이에요. <br>
+                <br>
                 위기 상황에서도 침착하고, 내가 지켜야 할 것을 끝까지 <br>
                 지키려는 강한 의지를 가진 당신. <br>
                 때로는 말보다 행동으로, 말보단 신뢰로 자신의 <br>
@@ -64,9 +65,10 @@
 
         <div class="rizz-info">
             <span id="info">
-                • ’괜찮아, 네가 있어서 든든해.’라는 말을 자주 듣는 삶 <br>
-                • 따뜻한 커다란 쿠션 같은 존재 <br>
-                • 겉으로는 무심한 듯 보여도, 누구보다 사려 깊고 섬세한 마음
+                • ”내가 지켜줄게”라는 말이 전혀 어색하지 않은 사람 <br>
+                • 상황을 객관적으로 바라보되, 정이 많고 다정한 태도를 잃지 않는 성숙함 <br>
+                • 상처받은 존재에게 먼저 다가가 손을 내미는 따뜻한 용기 <br>
+                • 겉으로는 조용해보여도, 속마음은 누구보다 깊고 단단한 사람
             </span>
         </div>
 
@@ -83,16 +85,16 @@
             <span id="match-name">포뇨</span>
         </div>
         <div class="match-info">
-            <span id="match-info">당신의 존재를 있는 그대로 받아들이고 사랑하는 사람이에요.</span>
+            <span id="info">당신의 존재를 있는 그대로 받아들이고 사랑하는 사람이에요.</span>
         </div>
     </section>
 
     <section class="footer">
         <img src="/img/result-footer.png" alt="결과 푸터" class="result-footer no-drag" />
-        <a href="guestbook.html" tabindex="0" id="footer-info-link">
+        <a href="guestbook1.html" tabindex="0" id="footer-info-link">
             <span id="footer-info">방명록으로 가기</span>
         </a>
-        <a href="result.html" tabindex="0" class="result-arrow-link">
+        <a href="guestbook1.html" tabindex="0" class="result-arrow-link">
             <img src="/img/result-arrow.png" alt="결과 버튼" class="result-arrow no-drag" />
         </a>
     </section>
