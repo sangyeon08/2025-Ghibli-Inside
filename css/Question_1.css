@@ -1,5 +1,6 @@
 body {
     background-color: #14121D;
+    overflow: hidden;
 }
 
 html, body {
@@ -15,23 +16,29 @@ html, body {
 }
 
 #eye {
-    top: 8vw;
-    left: 11vw;
+    top: 2vw;
+    left: 10vw;
     position: absolute;
 }
 
 .eye1 {
     position: absolute;
-    top: 16vw;
-    left: 12.3vw;
+    top: 9.9vw;
+    left: 31.5vw;
     z-index: -1;
+    transform-origin: left center;
+    animation: wave3 2s infinite ease-in-out;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .eye2 {
     position: absolute;
-    margin-top: 10.5vw;
-    margin-left: 24vw;
+    margin-top: 4.5vw;
+    margin-left: 47vw;
     z-index: -1;
+    transform-origin: left;
+    animation: wave2 2s infinite ease-in-out;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .tail {
@@ -73,5 +80,24 @@ button:hover {
 
     50% {
         transform: translate(-50%, 0) rotate(-5deg);
+    }
+}
+
+@keyframes wave2 {
+    0%, 100% {
+        transform: translate(-50%, 0) rotate(3deg);
+    }
+
+    50% {
+        transform: translate(-50%, 0) rotate(-3deg);
+    }
+}
+@keyframes wave3 {
+    0%, 100% {
+        transform: translate(-50%, 0) rotate(-1deg);
+    }
+
+    50% {
+        transform: translate(-50%, 0) rotate(1deg);
     }
 }
