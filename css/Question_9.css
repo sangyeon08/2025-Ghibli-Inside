@@ -157,7 +157,6 @@ button:hover {
     100% { transform: rotate(-360deg); }
 }
 
-/* 각 바늘에 개별 애니메이션 부여 */
 #hour1 {
     animation: rotate-clockwise 40s linear infinite;
     transform-origin: bottom left;
@@ -177,11 +176,6 @@ button:hover {
     animation: rotate-counterclockwise 45s linear infinite;
     transform-origin: left center;
 }
-
-/* #minute2 {
-    animation: rotate-clockwise 25s linear infinite;
-    transform-origin: bottom right;
-} */
 
 #second2 {
     animation: rotate-counterclockwise 12s linear infinite;
