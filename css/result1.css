@@ -8,87 +8,88 @@ html, body {
     overflow-y: visible !important;
     margin: 0;
     padding: 0;
-    font-size: 16px; 
+    font-size: 16px;
+    text-align: center;
 }
 
 .top-section {
     color: #446430;
     text-align: center;
-    padding-top: 3.75rem; 
+    padding-top: 60px;
 }
 
 .main-title {
-    margin-top: 2.5rem; 
+    margin-top: 40px;
 }
 
 #title {
     font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 5rem; 
+    font-size: 80px;
     line-height: 1;
 }
 
 #semi-title {
     font-family: 'Pretendard';
-    font-size: 1.5625rem; 
+    font-size: 25px;
     font-weight: 600;
 }
 
 .first {
-    margin-top: 0.9375rem; 
+    margin-top: 15px;
 }
 
 .second {
-    margin-top: 6.25rem; 
+    margin-top: 100px;
 }
 
 .greenLine {
     display: block;
-    width: 20vw;
-    margin-left: 42.5vw; 
-    margin-top: 3.125rem; 
+    width: 384px;
+    margin-left: 780px; 
+    margin-top: 50px;
 }
 
 .totoro_img {
-    width: 27.5rem; 
-    height: 33.75rem; 
-    margin-right: 31.875rem; 
-    margin-top: 1.25rem;
+    width: 440px;
+    height: 540px;
+    margin-right: 510px;
+    margin-top: 20px;
 }
 
 .totoro_icon {
-    width: 19.375rem; 
-    height: 4.375rem;
-    margin-top: 0.625rem; 
+    width: 310px;
+    height: 70px;
+    margin-top: 10px;
 }
 
 #info {
     font-family: 'Pretendard';
     font-style: normal;
-    font-size: 1.1875rem;
+    font-size: 19px;
     font-weight: 410;
-    line-height: 2rem;
-    max-width: 56.25rem;
+    line-height: 32px;
+    max-width: 900px;
     text-align: left;
 }
 
 .main-info {
     display: flex;
-    margin-left: 53.125rem;
-    gap: 3.75rem; 
-    margin-top: -31.25rem; 
-    max-width: 62.5rem; 
+    margin-left: 980px;
+    gap: 60px;
+    margin-top: -500px;
+    max-width: 1000px;
 }
 
 .point-info {
-    margin-top: 1.25rem; 
+    margin-top: 20px;
 }
 
 .third {
-    margin-top: 5rem;
+    margin-top: 80px;
 }
 
 .rizz-info {
-    margin-top: 1.25rem;
+    margin-top: 20px;
 }
 
 .match-section {
@@ -97,42 +98,38 @@ html, body {
 
 .match-title {
     font-family: 'Pretendard';
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 650;
-    margin-top: 11.875rem;
-    margin-left: 40.625rem; 
-    margin-bottom: 3.75rem; 
+    margin-top: 190px;
+    margin-bottom: 60px;
 }
 
 .match-img {
     width: 466px;
     height: 470px;
-    margin-left: 550px;
     margin-top: -60px;
 }
 
 .match-name {
-    margin-left: 50rem;
-    margin-top: -5.625rem;
+    margin-top: -90px;
 }
 
 #match-name {
     font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 3.75rem;
+    font-size: 60px;
 }
 
 .match-info {
-    margin-left: 37.5rem;
-    margin-top: 1.25rem;
+    margin-top: 20px;
 }
 
 #match-info {
     font-family: 'Pretendard';
     font-style: normal;
-    font-size: 1.25rem;
+    font-size: 20px;
     font-weight: 450;
-    line-height: 2rem;
-    max-width: 56.25rem;
+    line-height: 32px;
+    max-width: 900px;
     text-align: left;
 }
 
@@ -143,8 +140,8 @@ html, body {
 }
 
 .result-footer {
-    width: 106.25rem;
-    margin-top: 9.375rem;
+    width: 1700px;
+    margin-top: 150px;
     position: relative;
     z-index: 1;
 }
@@ -152,10 +149,10 @@ html, body {
 .result-arrow {
     position: absolute;
     background-color: #446430;
-    top: 28.125rem; 
-    left: 66.25rem; 
-    width: 3.75rem; 
-    height: 7.5rem; 
+    top: 450px;
+    left: 1060px;
+    width: 60px;
+    height: 120px;
     z-index: 2;
     animation: bounce-horizontal 2s infinite ease-in-out;
 }
@@ -163,9 +160,9 @@ html, body {
 #footer-info {
     background-color: #446430;
     position: absolute;
-    top: 30.625rem;
-    left: 36.25rem; 
-    font-size: 3.4375rem; 
+    top: 490px;
+    left: 580px;
+    font-size: 55px;
     font-family: 'Hakgyoansim MulgyeolOTF';
     font-weight: 500;
     color: #F9F4EF;
@@ -194,12 +191,10 @@ html, body {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(0.625rem);
+        transform: translateX(10px);
     }
 }
 
 .result-arrow {
     animation: bounce-horizontal 2s infinite ease-in-out;
 }
-
-
