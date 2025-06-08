@@ -8,6 +8,7 @@ html, body {
   overflow-y: visible !important;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 
@@ -44,21 +45,21 @@ html, body {
 .greenLine {
     display: block;
     width: 320px;
-    margin-left: 605px;
+    margin-left: 800px;
     margin-top: 50px;
 }
 
-.totoro_img {
+.sophie_img {
     width: 440px;
     height: 440px;
     margin-right: 510px;
     margin-top: 20px;
 }
 
-.totoro_icon {
+.sophie_icon {
     width: 310px;
     height: 70px;
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 #info {
@@ -73,7 +74,7 @@ html, body {
 
 .main-info {
     display: flex;
-    margin-left: 760px;
+    margin-left: 980px;
     gap: 60px;
     margin-top: -380px;
     max-width: 1000px;
@@ -100,14 +101,12 @@ html, body {
     font-size: 40px;
     font-weight: 650;
     margin-top: 190px;
-    margin-left: 550px;
     margin-bottom: 60px;
 }
 
 .match-img {
     width: 466px;
     height: 470px;
-    margin-left: 520px;
     margin-top: -60px;
 }
 
