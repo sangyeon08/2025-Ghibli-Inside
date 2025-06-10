@@ -1,36 +1,33 @@
-/* 전체 리셋 및 스크롤바 처리 */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    /* overflow-x와 overflow-y는 개별 섹션에서 관리하는 것이 좋습니다. */
 }
 
-/* WebKit 브라우저 (Chrome, Safari) 스크롤바 숨김 */
 ::-webkit-scrollbar {
     display: none;
 }
 
-/* IE, Edge, Firefox 스크롤바 숨김 */
 body {
-    -ms-overflow-style: none;  /* IE 및 Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-user-drag: none;
 }
 
 .top-section {
     position: relative;
     height: 1080px;
-    overflow: hidden; /* 상단 섹션은 배경 이미지 등으로 고정 높이라면 overflow hidden 유지 */
+    overflow: hidden;
     z-index: 1;
 }
 
 .bottom-section {
-    position: relative; /* 자식 요소의 상대적 위치 지정을 위해 유지 */
+    position: relative;
     background-color: #F9F4EF;
     padding: 80px 0;
     z-index: 5;
@@ -40,9 +37,9 @@ body {
     color: #770909;
     font-family: 'Hakgyoansim MulgyeolOTF';
     font-size: 33px;
-    position: absolute; /* ✨ 각 라인에 절대 위치 적용 */
-    width: 100%; /* 텍스트가 줄 바꿈될 수 있으므로 너비 100%로 설정 */
-    text-align: center; /* 텍스트 중앙 정렬 */
+    position: absolute;
+    width: 100%;
+    text-align: center;
     left: 0;
 }
 
@@ -50,9 +47,9 @@ body {
     color: #770909;
     font-family: 'Pretendard';
     font-size: 15px;
-    position: absolute; /* ✨ 각 출처에 절대 위치 적용 */
+    position: absolute;
     width: 100%;
-    text-align: center; /* 텍스트 중앙 정렬 */
+    text-align: center;
     left: 0;
 }
 
@@ -88,13 +85,12 @@ body {
     top: 2090px;
 }
 
-/* 제목 */
 #p-title1 {
     text-align: center;
     font-size: 60px;
     color: #770909;
     font-family: 'Hakgyoansim MulgyeolOTF';
-    padding-top: 150px; /* 섹션 상단에 간격 추가 */
+    padding-top: 150px;
 }
 
 .main-bg {
@@ -111,14 +107,14 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute; /* top-section에 대해 절대 위치로 변경 */
+    position: absolute;
     top: 40%;
-    left: 50%; /* 수평 중앙 정렬 */
-    transform: translate(-50%, -50%); /* 정확한 중앙 정렬을 위한 조정 */
+    left: 50%;
+    transform: translate(-50%, -50%);
     user-select: none;
     pointer-events: none;
-    margin: 0; /* 절대 위치 지정 시 margin은 제거 */
-    z-index: 2; /* 배경 이미지 위에 오도록 */
+    margin: 0;
+    z-index: 2;
 }
 
 .main-boy {
@@ -131,11 +127,11 @@ body {
     position: absolute;
     top: 478px;
     left: 50%;
-    transform: translate(calc(-50% - 117px), calc(-50% + 126px)); /* 중앙 기준으로 원래 오프셋 조정 */
+    transform: translate(calc(-50% - 117px), calc(-50% + 126px));
     user-select: none;
     pointer-events: none;
     margin: 0;
-    z-index: 3; /* 제목 위에 오도록 */
+    z-index: 3;
 }
 
 .startBtn {
@@ -159,7 +155,6 @@ body {
     box-sizing: border-box;
 }
 
-
 .startBtn:hover {
     background-color: rgba(255, 255, 255, 0.405);
     color: #ffffff;
@@ -170,9 +165,9 @@ body {
 .scroll-arrow {
     width: 80px;
     position: absolute;
-    bottom: 70px; /* top-section의 하단에서 50px 위로 위치 */
+    bottom: 70px;
     left: 920px;
-    transform: translateX(-50%); /* 중앙에 오도록 */
+    transform: translateX(-50%);
     opacity: 0.9;
     animation: bounce 2s infinite;
     cursor: pointer;
@@ -187,7 +182,7 @@ body {
     }
 
     50% {
-        transform: translateY(10px); /* 더 눈에 띄게 바운스 */
+        transform: translateY(10px);
     }
 }
 
@@ -210,7 +205,6 @@ body {
     min-height: 2300px;
 }
 
-/* 푸터 섹션 */
 .footer-section {
     background-color: #F9F4EF;
     position: relative;
@@ -220,27 +214,21 @@ body {
 
 .footer-section > img {
     width: 100%;
-    /* ✨ 핵심 변경: 푸터 이미지를 absolute로 변경하여 자유롭게 위치 지정 */
-    position: absolute; 
-    bottom: 0; /* 푸터 섹션의 하단에 이미지 하단 맞춤 */
+    position: absolute;
+    bottom: 0;
     left: 0;
-    /* ✨ 이미지를 위로 올리는 양을 조정합니다. */
-    z-index: 1; /* 배경 이미지처럼 뒤에 오도록 */
-    /* margin-bottom은 absolute 시 필요 없음 */
-    /* margin-bottom: 20px; */
+    z-index: 1;
 }
 
-/* 푸터 텍스트 (p-title2와 main-footer) */
 #p-title2 {
     text-align: center;
     font-size: 60px;
-    color: #F9F4EF; /* 푸터 섹션의 색상이므로 그 안에서 잘 보이는지 확인 */
+    color: #F9F4EF;
     font-family: 'Hakgyoansim MulgyeolOTF';
-    position: relative; /* p-title2가 main-footer 위에 오도록 position: relative 유지 */
-    z-index: 21; /* main-footer보다 높게 설정하여 위에 오도록 */
-    margin-bottom: 300px; /* 제목 아래 간격 */
-    /* ✨ 이미지 위에 오도록 top 값 조정 */
-    padding-top: 50px; /* 푸터 섹션의 상단에 여백을 주어 텍스트 시작 위치 조정 (조정 필요) */
+    position: relative;
+    z-index: 21;
+    margin-bottom: 300px;
+    padding-top: 50px;
     top: 250px;
 }
 
@@ -250,12 +238,9 @@ body {
     font-size: 16px;
     line-height: 1.6;
     font-weight: 500;
-    /* ✨ 핵심 변경: 텍스트를 이미지 위에 올리기 위해 absolute 위치 지정 */
-    position: absolute; 
-    width: 100%; /* 부모 요소인 footer-section의 너비를 꽉 채우도록 설정 */
-    /* ✨ 텍스트가 푸터 이미지 위에 오도록 top 값 조정 */
-    /* 푸터 이미지가 top: -150px;로 올라갔으므로, 텍스트의 top 값도 그에 맞춰 조정해야 합니다. */
-    z-index: 20; /* 이미지(z-index: 1)보다 높게 설정하여 이미지 위에 나타나게 함 */
+    position: absolute;
+    width: 100%;
+    z-index: 20;
     top: 1300px;
 }
 
@@ -273,14 +258,14 @@ body {
 }
 
 #insta {
-    text-decoration: none; /* 밑줄 제거 */
-    color: inherit; /* 상위 요소의 색상 상속 */
+    text-decoration: none;
+    color: inherit;
 }
 
 #instagram-img {
     font-size: 50px;
     height: auto;
     width: auto;
-    top: 1480px; /* 기존 top 유지 */
-    left: 345px; /* 기존 left 유지 */
+    top: 1480px;
+    left: 345px;
 }

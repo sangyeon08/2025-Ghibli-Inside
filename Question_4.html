@@ -12,7 +12,11 @@
 </head>
 
 <body>
-    <img src="img/frypan.png" id="frypan">
+    <img src="img/fryingPan.png" id="fryingPan">
+    <img src="img/fire1.png" id="fire1">
+    <img src="img/fire2.png" id="fire2">
+    <img src="img/face.png" id="face">
+    <img src="img/food.png" id="food">
     <div class="Question">
         <img src="img/Q_Red.png" class="Q">
         <p>집 안에서 갓 끓인 국물 냄새가 납니다. 아무도 없는데,<br> 식탁엔 따뜻한 음식이 놓여있습니다. <br>

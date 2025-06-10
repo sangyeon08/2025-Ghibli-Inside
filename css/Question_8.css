@@ -1,5 +1,6 @@
 body {
     background-color: #F9F4EF;
+    overflow: hidden;
 }
 
 html, body {
@@ -22,7 +23,7 @@ button {
     border: none;
     width: 780px;
     height: 100px;
-    margin-top: 1.5%;
+    margin-top: 3%;
     border-radius: 25px;
     font-size: 24px;
 }
@@ -35,10 +36,8 @@ button:hover {
 
 #rail {
     position: absolute;
-    bottom: 0;
+    bottom: 9vh;
     left: 71.45vw;
-    /* top: vw; */
     margin: 0;
     z-index: 1;
-    /* width: 30vw; */
 }

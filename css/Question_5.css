@@ -22,24 +22,22 @@ button {
     border: none;
     width: 780px;
     height: 100px;
-    margin-top: 1.5%;
+    margin-top: 3%;
     border-radius: 25px;
     font-size: 24px;
 }
 
 button:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
     transform: scale(1.025);
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 #window {
     position: absolute;
-    bottom: 0;
+    bottom: 10vh;
     left: 64vw;
-    /* top: vw; */
     margin: 0;
     z-index: 1;
     pointer-events: none;
-    /* width: 30vw; */
 }

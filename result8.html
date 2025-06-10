@@ -32,9 +32,14 @@
                 포뇨를 닮은 당신은 호기심 많고 감정에 솔직한<br>
                 사랑스러운 존재입니다. <br>
                 새로운 것을 보면 눈이 반짝이고, <br>
-                좋아하는 일에는 물불을 가리지 않는 열정이 가득하죠. <br>
-                때로는 조금 충동적인 면도 있지만, <br>
-                순수한 마음으로 주변을 따뜻하게 만드는 힘이 있어요.
+                좋아하는 일에는 망설임 없이 달려드는 용기와 열정이 가득하죠. <br>
+                가끔은 충동적으로 보일 수 있지만,<br>
+                그 모든 행동 뒤에는 진심 어린 마음과 순수한 의도가 담겨 있어요 <br>
+                그런 당신의 자연스럽고 꾸밈없는 모습은 <br> 사람들에게 웃음과 따뜻함을 전해줍니다. <br>
+                작은 일에도 감동하고, 사소한 순간도 특별하게 여기는 당신<br>
+                덕분에 함께 있는 사람들은 세상을 더 따뜻하고 아름답게 느끼게 돼요. <br>
+                당신은 마치 자유롭게 헤엄치는 포뇨처럼, <br>
+                자신만의 방식으로 세상을 환하게 밝혀주는 존재랍니다.
             </span>
         </section>
 
@@ -81,16 +86,16 @@
             <span id="match-name">소스케</span>
         </div>
         <div class="match-info">
-            <span id="match-info">서로에 대한 믿음이 두 아이를 한층 더 단단하게 만드는 사람이에요.</span>
+            <span id="info">서로에 대한 믿음이 두 아이를 한층 더 단단하게 만드는 사람이에요.</span>
         </div>
     </section>
 
     <section class="footer">
         <img src="/img/result-footer.png" alt="결과 푸터" class="result-footer no-drag" />
-        <a href="guestbook.html" tabindex="0" id="footer-info-link">
+        <a href="guestbook1.html" tabindex="0" id="footer-info-link">
             <span id="footer-info">방명록으로 가기</span>
         </a>
-        <a href="result.html" tabindex="0" class="result-arrow-link">
+        <a href="guestbook1.html" tabindex="0" class="result-arrow-link">
             <img src="/img/result-arrow.png" alt="결과 버튼" class="result-arrow no-drag" />
         </a>
     </section>
