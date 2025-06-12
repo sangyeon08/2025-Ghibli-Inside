@@ -25,8 +25,8 @@
             <img src="img/greenLine.png" alt="초록선" class="greenLine">
         </div>
 
-        <section class="totoro-section">
-            <img src="img/result_haku.png" alt="하쿠 결과" class="totoro_img">
+        <section class="haku-section">
+            <img src="img/result_haku.png" alt="하쿠 결과" class="haku_img">
             <span class="main-info" id="info">
                 침착하고 신비로운 지혜를 품은 수호자, 하쿠. <br>
                 겉으로는 냉정하고 차분해 보이지만, <br>
@@ -39,7 +39,8 @@
                 기억을 잃은 채 살아가면서도 <br>
                 마음속에 남은 진심으로 사람을 돕는 모습은, <br>
                 우리가 잊고 살던 본래의 모습을 떠오르게 합니다. <br>
-                당신도 하쿠처럼 누군가에게 조용히 힘이 되어주는 존재일 수 있어요.   
+                당신도 하쿠처럼 누군가에게 조용히 힘이 되어주는 <br>
+                존재일 수 있어요.   
             </span>
         </section>
 
@@ -56,8 +57,8 @@
             </span>
         </div>
 
-        <div id="totoro_icon">
-            <img src="img/haku_icon.png" alt="토토로 아이콘" class="totoro_icon">
+        <div id="haku_icon">
+            <img src="img/haku_icon.png" alt="하쿠 아이콘" class="haku_icon">
         </div>
 
         <div class="third">
@@ -79,22 +80,22 @@
             <span id="main-title">”하쿠”와 잘 맞는 캐릭터</span>
         </div>
         <a href="result6.html" tabindex="0">
-            <img src="/img/to_chihiro.png" alt="치히로아이콘" class="match-img no-drag">
+            <img src="/img/to_chihiro.png" alt="치히로 아이콘" class="match-img no-drag">
         </a>
         <div class="match-name">
             <span id="match-name">치히로</span>
         </div>
         <div class="match-info">
-            <span id="match-info">용기있는 법을 알려주는 당신을 바라보며 점점 마음이 단단해지는 사람이에요.</span>
+            <span id="info">용기있는 법을 알려주는 당신을 바라보며 점점 마음이 단단해지는 사람이에요.</span>
         </div>
     </section>
 
     <section class="footer">
         <img src="/img/result-footer.png" alt="결과 푸터" class="result-footer no-drag" />
-        <a href="guestbook.html" tabindex="0" id="footer-info-link">
+        <a href="guestbook4.html" tabindex="0" id="footer-info-link">
             <span id="footer-info">방명록으로 가기</span>
         </a>
-        <a href="result.html" tabindex="0" class="result-arrow-link">
+        <a href="guestbook4.html" tabindex="0" class="result-arrow-link">
             <img src="/img/result-arrow.png" alt="결과 버튼" class="result-arrow no-drag" />
         </a>
     </section>
