@@ -12,9 +12,22 @@
 </head>
 
 <body>
-    <img src="img/clock.png" id="clock">
+    <div class="clock-display">
+        <img src="img/clock.png" id="clock">
+        <img src="img/clock-center.png" id="clock-center">
+        <img src="img/hour1.png" id="hour1">
+        <img src="img/minute1.png" id="minute1">
+        <img src="img/second1.png" id="second1">
+        <img src="img/hour2.png" id="hour2">
+        <img src="img/minute2.png" id="minute2">
+        <img src="img/second2.png" id="second2">
+        <img src="img/hour3.png" id="hour3">
+        <img src="img/minute3.png" id="minute3">
+        <img src="img/second3.png" id="second3">
+    </div>
+    
     <div class="Question">
-        <img src="img/Q_White.png" class="Q">
+    <img src="img/Q_White.png" class="Q" alt="질문 아이콘">
         <p>기찻길 너머엔 멈춰버린 마을이 있습니다. <br>
             시간이 멈춘 듯한 공간, <br>
             모든 것이 정지해 있습니다.</p>
