@@ -11,8 +11,8 @@ if (!$conn) {
 }
 
 foreach($characters as $value) {
-    $value = trim($value);
-    $sql = "UPDATE msg_itshow SET $value = $value + 1 WHERE nickName = '$nickName'";
+    $value = trim($value); 
+    $sql = "UPDATE msg_itshow SET `$value` = COALESCE(`$value`, 0) + 1 WHERE nickName = '$nickName'";
     mysqli_query($conn, $sql);
 }
 
@@ -29,15 +29,19 @@ $sql = "SELECT $columns FROM msg_itshow WHERE nickName = '$nickName'";
 $result = mysqli_query($conn, $sql);
 $row = mysqli_fetch_assoc($result);
 
-$max_Score = max($row);
+foreach ($row as $key => $val) {
+    if (is_null($val)) {
+        $row[$key] = 0;
+    }
+}
 
-$max_Characters = array_keys($row, $max_Score);
+$maxScore = max($row);
+$maxCharacters = array_keys($row, $maxScore); 
+$selectedCharacter = $maxCharacters[array_rand($maxCharacters)];  
 
-$selected = $max_Characters[array_rand($max_Characters)];
-
-$sql = "UPDATE msg_itshow SET max_score = '$selected' WHERE nickName = '$nickName'";
+$sql = "UPDATE msg_itshow SET max_score = '$selectedCharacter' WHERE nickName = '$nickName'";
 mysqli_query($conn, $sql);
 
-header("Location: result_$selected.php?name=" . urlencode($nickName));
+header("Location: result_$selectedCharacter.php?name=" . urlencode($nickName));
 exit;
 ?>
