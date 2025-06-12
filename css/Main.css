@@ -3,26 +3,94 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-    overflow-y: auto
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .top-section {
     position: relative;
-    height: 850px;
+    height: 1080px;
     overflow: hidden;
+    z-index: 1;
 }
 
 .bottom-section {
+    position: relative;
     background-color: #F9F4EF;
     padding: 80px 0;
+    z-index: 5;
 }
 
+.famousLine {
+    color: #770909;
+    font-family: 'Hakgyoansim MulgyeolOTF';
+    font-size: 33px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
 
-body {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-use-select: none;
-    user-select: none;
+.famousFrom {
+    color: #770909;
+    font-family: 'Pretendard';
+    font-size: 15px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+#line1 {
+    top: 625px;
+}
+
+#from1 {
+    top: 680px;
+}
+
+#line2 {
+    top: 1100px;
+}
+
+#from2 {
+    top: 1155px;
+}
+
+#line3 {
+    top: 1560px;
+}
+
+#from3 {
+    top: 1615px;
+}
+
+#line4 {
+    top: 2035px;
+}
+
+#from4 {
+    top: 2090px;
+}
+
+#p-title1 {
+    text-align: center;
+    font-size: 60px;
+    color: #770909;
+    font-family: 'Hakgyoansim MulgyeolOTF';
+    padding-top: 150px;
 }
 
 .main-bg {
@@ -33,58 +101,59 @@ body {
 }
 
 .main-title {
-    width: 801px;
-    height: 400px;
+    width: 1000px;
+    height: 700px;
     background-image: url('../img/title.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    bottom: 720px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     user-select: none;
     pointer-events: none;
-
-    margin: 0 auto;
+    margin: 0;
+    z-index: 2;
 }
 
 .main-boy {
-    width: 220px;
-    height: 79px;
+    width: 265px;
+    height: 100px;
     background-image: url('../img/boy.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    right: 90.5px;
-    bottom: 818px;
+    position: absolute;
+    top: 478px;
+    left: 50%;
+    transform: translate(calc(-50% - 117px), calc(-50% + 126px));
     user-select: none;
     pointer-events: none;
-
-    margin: 0 auto;
+    margin: 0;
+    z-index: 3;
 }
 
 .startBtn {
-    position: relative;
+    position: absolute;
     display: inline-block;
-    padding: 16px 34px;
-    width: 250px;
+    padding: 25px 34px;
+    width: 300px;
     border-radius: 10px;
     font-family: "Pretendard";
-    font-weight: 500;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 1px;
     color: white;
     background-color: rgba(255, 255, 255, 0.223);
     border: 4px solid white;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    text-decoration: none;
     transition: 0.25s;
-    left: 635px;
-    bottom: 725px;
+    left: 810px;
+    bottom: 220px;
     cursor: pointer;
     text-align: center;
     box-sizing: border-box;
 }
-
 
 .startBtn:hover {
     background-color: rgba(255, 255, 255, 0.405);
@@ -94,46 +163,32 @@ body {
 }
 
 .scroll-arrow {
-    width: 60px;
-    position: relative;
-    left: 475px;
+    width: 80px;
+    position: absolute;
+    bottom: 70px;
+    left: 920px;
+    transform: translateX(-50%);
     opacity: 0.9;
     animation: bounce 2s infinite;
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    bottom: 610px;
+    z-index: 4;
 }
 
 @keyframes bounce {
-
     0%,
     100% {
         transform: translateY(0);
     }
 
     50% {
-        transform: translateY(5px);
+        transform: translateY(10px);
     }
 }
 
-#p-title1 {
-    margin-bottom: 450px;
-    text-align: center;
-    font-size: 55px;
-    color: #F9F4EF;
-    font-family: 'Hakgyoansim MulgyeolOTF';
-}
-
-#p-title1 {
-    text-align: center;
-    font-size: 55px;
-    color: #770909;
-    font-family: 'Hakgyoansim MulgyeolOTF';
-}
-
 .main-characters {
-    width: 1500px;
-    height: 1700px;
+    width: 2400px;
+    height: 2300px;
     background-image: url('../img/Main-characters.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -141,68 +196,76 @@ body {
     position: relative;
     user-select: none;
     pointer-events: none;
-    bottom: 520px;
     margin: 0 auto;
-}
-
-.famousLine {
-    color: #770909;
-    position: relative;
-    font-family: 'Hakgyoansim MulgyeolOTF';
-    font-size: 25px;
-    left: 550px;
-}
-
-.famousFrom {
-    color: #770909;
-    position: relative;
-    font-family: 'Pretendard';
-    font-size: 12px;
-    left: 700px;
-}
-
-#line1 {
-    bottom: 1910px;
-}
-
-#line2 {
-    bottom: 1600px;
-    left: 535px;
-}
-
-#line3 {
-    bottom: 1300px;
-}
-
-#line4 {
-    bottom: 985px;
-    left: 520px;
-}
-
-#from1 {
-    bottom: 1890px;
-    left: 680px;
-}
-
-#from2 {
-    bottom: 1575px;
-    left: 690px;
-}
-
-#from3 {
-    bottom: 1276px;
-}
-
-#from4 {
-    bottom: 966px;
+    z-index: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    right: 210px;
+    bottom: 140px;
+    min-height: 2300px;
 }
 
 .footer-section {
     background-color: #F9F4EF;
+    position: relative;
+    min-height: 1600px;
+    overflow: hidden;
+}
+
+.footer-section > img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#p-title2 {
+    text-align: center;
+    font-size: 60px;
+    color: #F9F4EF;
+    font-family: 'Hakgyoansim MulgyeolOTF';
+    position: relative;
+    z-index: 21;
+    margin-bottom: 300px;
+    padding-top: 50px;
+    top: 250px;
 }
 
 .main-footer {
-    background-image: url('../img/Main-footer.png');
-    width: 50%;
-    height: 1000px;
+    color: #ffffff;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    position: absolute;
+    width: 100%;
+    z-index: 20;
+    top: 1300px;
+}
+
+#major {
+    left: 350px;
+}
+
+#info {
+    left: 470px;
+}
+
+#instagram {
+    left: 400px;
+    top: 1510px;
+}
+
+#insta {
+    text-decoration: none;
+    color: inherit;
+}
+
+#instagram-img {
+    font-size: 50px;
+    height: auto;
+    width: auto;
+    top: 1480px;
+    left: 345px;
 }

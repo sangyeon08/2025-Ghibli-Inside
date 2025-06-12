@@ -29,7 +29,8 @@
             <img src="img/result_chihiro.png" alt="치히로 결과" class="totoro_img">
             <span class="main-info" id="info">
                 소심하지만 강한 아이, 치히로. <br>
-                처음에는 두려움이 많고 의존적인 아이였던 치히로는 낯선 세계에서의 경험을 통해<br>
+                처음에는 두려움이 많고 의존적인 아이였던 치히로는 <br>
+                낯선 세계에서의 경험을 통해<br>
                 점점 강인한 마음을 가지게 됩니다. <br>
                 연약해 보이지만, 사랑하는 사람을 지키기 위해 <br>
                 스스로 나아가는 힘을 가진 존재입니다. <br>
@@ -86,16 +87,16 @@
             <span id="match-name">하쿠</span>
         </div>
         <div class="match-info">
-            <span id="match-info">강한 진심으로 다가오는 당신을 조용히 느끼며 괜히 마음이 끌리는 사람이에요.</span>
+            <span id="info">강한 진심으로 다가오는 당신을 조용히 느끼며 괜히 마음이 끌리는 사람이에요.</span>
         </div>
     </section>
 
     <section class="footer">
         <img src="/img/result-footer.png" alt="결과 푸터" class="result-footer no-drag" />
-        <a href="guestbook.html" tabindex="0" id="footer-info-link">
+        <a href="guestbook4.html" tabindex="0" id="footer-info-link">
             <span id="footer-info">방명록으로 가기</span>
         </a>
-        <a href="result.html" tabindex="0" class="result-arrow-link">
+        <a href="guestbook4.html" tabindex="0" class="result-arrow-link">
             <img src="/img/result-arrow.png" alt="결과 버튼" class="result-arrow no-drag" />
         </a>
     </section>
