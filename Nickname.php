@@ -1,23 +1,13 @@
 <?php
-$nickname = $_POST['Name'];
+$nickName = $_POST['username'];
+$conn = mysqli_connect('localhost','root','111111','msg_itshow');
 
-if (empty($nickname)) {
-    echo "<script>alert('닉네임을 입력해주세요.'); history.back();</script>";
-    exit;
-}
+$sql="insert into msg_itshow(nickName) values('$nickName')"; // 닉네임
 
-$dir = "data";
-$filePath = $dir . "/nicknames.txt";
+mysqli_query($conn,$sql);
+// mysqli_query("insert into msg_ITSHOW values(nickName) values('$Name')",$conn);
+mysqli_close($conn);
 
-$file = fopen($filePath, "a");
-if ($file === false) {
-    die("파일을 열 수 없습니다.");
-}
-
-fwrite($file, $nickname . "\n");
-fclose($file);
-
-header("Location: Question_1.html");
+header("Location:Question_1.php?name=".urlencode($nickName));
 exit;
-
 ?>

@@ -11,24 +11,35 @@
 </head>
 
 <body>
-    <main>
-        <section id="Nickname">
-            <img src="img/totoro.png" alt="토토로" id="totoro" />
-            <p id="ask">당신의 이름은 무엇인가요?</p>
-        </section>
+    <form method="post" action="Nickname.php">
+        <main>
+            <section id="Nickname">
+                <img src="img/totoro.png" alt="토토로" id="totoro" />
+                <p id="ask">당신의 이름은 무엇인가요?</p>
+            </section>
 
-        <section class="bar-container">
-            <img src="img/submit.png" id="bar" />
-            <form method="post" action="Nickname.php">
+            <section class="bar-container">
+                <img src="img/submit.png" id="bar" />
+
                 <div id="submit">
-                    <input type="text" placeholder="이름을 알려주세요" name="Name" autocomplete="off"/>
+                    <input type="text" placeholder="이름을 알려주세요" name="username" autocomplete="off"  onkeyup="characterCheck(this)" onkeydown="characterCheck(this)" maxlength="20"/>
                     <button id="arrow" type="submit">
-                        <img src="img/arrow.png" alt="이동 화살표"/>
-                    </button>                      
-                </div>
-            </form>
-        </section>
-    </main>
+                        <img src="img/arrow.png" alt="이동 화살표" />
+                    </button>
+                </div>  
+
+            </section>
+        </main>
+    </form>
+    <script>
+        function characterCheck(obj) { // 특수 문자 제거 (띄어쓰기 포함)
+            var regExp = /[ \{\}\[\]\/?.,;:|\)*~`!^\_+┼<>@\#$%&\'\"\\\(\=]/gi;
+            if (regExp.test(obj.value)) {
+                alert("특수문자는 입력하실수 없습니다.");
+                obj.value = obj.value.substring(0, obj.value.length - 1);
+            }
+        }
+    </script>
 </body>
 
 </html>
